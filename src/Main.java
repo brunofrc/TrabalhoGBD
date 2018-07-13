@@ -56,7 +56,7 @@ public class Main {
         a2.carregaDados(c2, dadostime);
         
                
-        //ETAPA 2 =============================================================================
+        //ETAPA 2
         //Indice da tabela jogadores
         Indice i1 = new Indice("jogadores",c1);
         i1.criaIndice();
@@ -91,7 +91,7 @@ public class Main {
         System.out.println(resultado);
         
         
-        //ETAPA 3 =============================================================================
+        //ETAPA 3
         Join j = new Join(c1,c2);
         j.juncao();
         
